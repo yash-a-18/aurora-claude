@@ -28,16 +28,30 @@ npm i
 
 ---
 
-### 3. Run the Client
+
+### 3. Start the Server
+After successful installation, you can start the server:
+
+```
+npx tsx mcpServer.ts
+```
+
+---
+
+### 4. Run the Client
 After successful installation, you can test the MCP Client by running:
 
 ```
 npx tsx test.ts
 ```
 
+And then start the extension to see below result!
+
+![Server Output](public/serverResult.png)
+
 ---
 
 ### ✅ Expected Output
 If everything works as expected, you should see an output similar to the image below:
 
-![alt text](public/image.png)
+![Result from Claude Client](public/image.png)
